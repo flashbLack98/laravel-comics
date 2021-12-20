@@ -1,0 +1,216 @@
+.container_header {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.container_header img {
+  padding-bottom: 10px;
+}
+
+.container_header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container_header ul li {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.container_header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+
+main img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .main_container {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 10px 0;
+  gap: 15px;
+  position: relative;
+}
+
+main .main_container h2 {
+  color: white;
+  background-color: #0282f9;
+  padding: 5px 15px;
+  margin: 0;
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+main .main_container .singleComic_container {
+  width: calc(16.6666666667% - 15px);
+  margin: 15px 0 0;
+}
+
+main .main_container .singleComic_container div {
+  height: 150px;
+}
+
+main .main_container .singleComic_container div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+main .main_container .singleComic_container h5 {
+  color: lightgrey;
+  margin: 10px 0 0;
+  text-transform: uppercase;
+}
+
+main .main_container button {
+  background-color: #0282f9;
+  color: white;
+  padding: 5px 30px;
+  font-size: 10px;
+  border: 0;
+}
+
+.background_blue {
+  background-color: #0282f9;
+  position: relative;
+  z-index: 1;
+}
+
+.background_blue .container_item {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+}
+
+.background_blue .container_item .item {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.background_blue .container_item .item div {
+  height: 50px;
+  width: 50px;
+}
+
+.background_blue .container_item .item div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.background_blue .container_item .item h5 {
+  color: white;
+}
+
+.background_superheros {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+.background_superheros .container_linkDClogo {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+
+.background_superheros .container_linkDClogo .container_link {
+  display: flex;
+  width: 50%;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+
+.background_superheros .container_linkDClogo .container_link .link_item {
+  width: 33.3333333333%;
+}
+
+.background_superheros .container_linkDClogo .container_link .link_item h4 {
+  margin: 0;
+  color: white;
+}
+
+.background_superheros .container_linkDClogo .container_link .link_item ul {
+  padding: 0;
+  list-style: none;
+  color: gray;
+}
+
+.background_superheros .container_linkDClogo img {
+  height: 100%;
+  position: absolute;
+  transform: scale(1.5);
+  top: 0;
+  right: 0;
+}
+
+.background_social {
+  background-color: #303030;
+  position: relative;
+  z-index: 1;
+}
+
+.background_social .social_container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.background_social .social_container button {
+  background-color: transparent;
+  color: white;
+  border: #0282f9 1px solid;
+}
+
+.background_social .social_container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.background_social .social_container ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.background_social .social_container ul li h4 {
+  color: #0282f9;
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
