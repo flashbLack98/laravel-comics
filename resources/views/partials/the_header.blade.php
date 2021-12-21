@@ -52,8 +52,6 @@
                 <li><a class="list-unstyled" href={{ $item['href'] }} >{{ $item["title"] }}</a></li>
             @endforeach
         </ul>
-    </div>
-
-
-
+      </div>
+      <img class="jumbotron" src= {{  asset("img/jumbotron.jpg") }}  alt="" />
 </header>

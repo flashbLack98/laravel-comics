@@ -1,0 +1,54 @@
+.barBlue{
+    background-color: #0282f9;
+    height: 50px;
+}
+.main_details{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    position: relative;
+    .comic_img{
+        position: absolute;
+        top: -160px;
+        height: 150px;
+    }
+    .details_container{
+        display: flex;
+        margin-bottom: 30px;
+        .text_details{
+            margin-right: 5px;
+            .comic_title{
+                color: #003f5e;
+                margin: 0;
+                text-transform: uppercase
+            }
+            .available_container{
+                display: flex;
+                width: 700px;
+                margin:15px 0;
+                .lable_container{
+                    background-color: #55ba59;
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 10px;
+                    width: 80%;
+                    border-bottom:1px solid black ;
+                }
+                .dropdown{
+                    background-color: #55ba59;
+                    color: white;
+                    border-left: 1px solid black;
+                    border-bottom:1px solid black ;
+                    padding: 0 10px;
+                    width: 20%;
+                }
+            }
+           
+        }
+      img{
+        padding: 10px;
+      }  
+    }
+}
